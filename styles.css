@@ -5,28 +5,14 @@ body {
   background-color: #fff;
 }
 
-/* h1 {
-  font-size: 2em;
-  margin-top: 0;
-  font-weight: bold;
-  text-align: center;
-}
-h2{
-  margin-top: 20px;
-}
 
-p {
-  margin-bottom: 1em;
-} */
 
 /*nav bar */
 
 header {
   background-color: #000;
   color: #fff;
-  /* padding: 0 2em; */
-  /* text-align: center; */
-  /* position: fixed; */
+
     margin: 0;
   top: 0;
   width: 100%;
@@ -37,12 +23,9 @@ header {
 }
 
 nav {
-  /* position: fixed; */
   padding: 0 2em;
   width: 100%;
-  /* position: fixed; */
-  /* top: 0;
-  left: 0; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,7 +40,7 @@ nav a {
   float: none;
   text-decoration: none;
   color: #fff;
-  /* margin: 0 10px; */
+
 }
 
 nav a:hover {
@@ -66,14 +49,13 @@ nav a:hover {
 
 nav input {
   width: 30%;
-  /* margin: 0 0 0 20px; */
+ 
 }
 
 
 nav ul {
   list-style: none;
-  /* margin: 0;
-  padding: 0; */
+
   display: flex;
   width: 40%;
 }
@@ -86,7 +68,7 @@ nav li {
 main {
   background-color: #f0f0f0;
   width: 100%; 
-  /* padding: 20px; */
+
 }
 main .wrapper {
   padding: 20px;
@@ -104,44 +86,13 @@ main .wrapper {
 }
 
 .service-list {
-  /* display: flex;
-  align-items: center;
-  justify-content: space-around; */
+ 
   display: grid;
   grid-template-columns: auto auto auto auto;
-    /* background-color: #2196F3; */
-  /* padding: 10px; */
+ 
 }
 
-/* section {
-  margin-bottom: 1em;
-} */
 
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-li {
-    display: flex;
-      align-items: center;
-      justify-content: center;
-  margin-bottom: .5em;
-  font-size: 1.5em;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-a:hover {
-  text-decoration: underline;
-} */
 
 form {
   width: 50%;
@@ -168,8 +119,7 @@ footer {
   text-align: center;
   background-color: #000;
   color: #fff;
-  /* position: fixed; */
-  /* bottom: 0; */
+
   width: 100%;
 }
 
@@ -186,15 +136,13 @@ footer p {
 /*services card */
 
 .card {
-  /* display: flex; */
-  /* flex-direction: row; */
+
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
   background-color: #f0f0f0;
-  /* width: 150px;
-  height: 150px; */
+
  
 }
 
